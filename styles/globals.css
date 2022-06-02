@@ -1,0 +1,101 @@
+/*layout styling ----*/
+.content-container {
+  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+}
+.row {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*navbar styling ----*/
+.navbar-dark .navbar-toggler {
+  border: none;
+}
+.navbar-toggler {
+  padding: 0.25rem 0;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+nav a {
+  color: white;
+  margin-right: 10px;
+  text-decoration: none;
+  padding: 7px 0;
+}
+.navbar-light .navbar-text {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.navbar-text {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+.username {
+  margin-right: 10px;
+}
+
+/*card styling ----*/
+.cards {
+  min-height: 425px;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.boldText {
+  font-weight: 500;
+}
+.card-text {
+  margin: 0;
+}
+.description {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.fa-heart {
+  width: 35px;
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  color: white;
+}
+/*form styling ----*/
+form span {
+  color: red;
+}
+.form-label {
+  font-weight: 500;
+}
+
+@media (min-width: 576px) {
+  .cards {
+    height: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .cards {
+    height: 500px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    width: 960px;
+  }
+}
